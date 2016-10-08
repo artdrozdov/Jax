@@ -1,0 +1,15 @@
+<div class="card-wide mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">News</h2>
+    </div>
+    <div class="mdl-list">
+        <div class="mdl-list__item" *ngFor="let e of entries">
+            <span class="mdl-list__item-primary-content">
+                <i class="material-icons mdl-list__item-avatar">star</i>
+                <span>{{e.title}}</span>
+            </span>
+            <!--<a class="mdl-list__item-secondary-action mdl-js-ripple-effect mdl-button mdl-js-button mdl-button--icon mdl-button--colored" href="{{e.href}}">More</a>-->
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{e.href}}">More</a>
+        </div>
+    </div>
+</div>

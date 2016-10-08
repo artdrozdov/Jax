@@ -1,0 +1,5 @@
+jax/
+.idea/
+node_modules/
+app/**/*.js
+.DS_Store
