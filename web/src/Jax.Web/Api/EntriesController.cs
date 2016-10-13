@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using JaxWeb.Models;
+using Jax.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace JaxWeb.Api {
+namespace Jax.Web.Api {
 
     [Route("api/[controller]")]
     [Produces("application/json")]

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace JaxWeb.Controllers
+namespace Jax.Web.Controllers
 {
     public class HomeController : Controller
     {

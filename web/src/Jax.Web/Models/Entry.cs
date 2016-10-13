@@ -1,4 +1,4 @@
-namespace JaxWeb.Models {
+namespace Jax.Web.Models {
 
     public class Entry{
         public string Href {get; set;}
